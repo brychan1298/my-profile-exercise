@@ -1,0 +1,15 @@
+.tes:hover{
+    transform: scale(1.05);
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+nav{
+    z-index: 4;
+}
+
+.navbar{
+    text-shadow:  0px 2px 4px #7e7e81;
+}
