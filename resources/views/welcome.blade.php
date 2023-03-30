@@ -62,21 +62,21 @@
             
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://source.unsplash.com/1200x300/?web" class="d-block w-100" alt="...">
-                {{-- <div class="carousel-caption d-none d-md-block .bg-danger-subtle">
-                    <h1>Tugas SE</h1>
-                    <p class="fs-3">Mengerjakan project SE(Zinfo) Bersama teman-teman Cawu 4</p>
-                </div> --}}
+                <img src="https://source.unsplash.com/1200x400/?web" class="d-block w-100" alt="...">
+                <div class="carousel-caption bg-danger-subtle text-start">
+                    <p>Hi, You!</p>
+                    <h1>Enjoy my Profile</h1>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="https://source.unsplash.com/1200x300/?sport" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1200x400/?sport" class="d-block w-100" alt="...">
                 {{-- <div class="carousel-caption d-none d-md-block">
                     <h1>Tugas BIO X ML</h1>
                     <p class="fs-3">Mengerjakan project BIO X ML(TBC Prediction) Bersama teman-teman Cawu 4</p>
                 </div> --}}
               </div>
               <div class="carousel-item">
-                <img src="https://source.unsplash.com/100x300/?game" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/100x400/?game" class="d-block w-100" alt="...">
                 {{-- <div class="carousel-caption d-none d-md-block .bg-danger-subtle">
                     <h1>Tugas Pancasila</h1>
                     <p class="fs-3">Mengerjakan project CB:Kewarganegaraan Bersama teman-teman Cawu 4</p>
@@ -93,7 +93,7 @@
             </button>
         </div>
         <div class="container pt-5" id="profile">
-            <div class="row shadow p-3 bg-white rounded">
+            <div class="row shadow p-3 bg-white rounded d-flex align-items-center">
                 <div class="col-lg-6 d-flex justify-content-left align-items-center">
                     <div class="ms-5">
                         <img src="img/profile-2.jpeg" alt="profile" class="img rounded-circle img-thumbnail float-start" style="height: 150px;width:150px;object-fit:contain">
@@ -134,10 +134,6 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h1>
-                        Short Profile
-                    </h1>
-                    
                     <h4>Hi, I'm Brychan Artanto</h4>
                     
                     <p>
@@ -146,9 +142,25 @@
                 </div>
             </div>
 
+            <div class="row mt-5">
+                <div class="col-lg-6 p-5">
+                    <b><h2 class="text-warning mx-5 px-5 pt-5 pb-2 about-me">About Me</h2></b>
+                    <p class="fs-3 mx-5 px-5">
+                        Some things you should know about Brychan Artanto
+                    </p>
+                    <p class="fs-6 mx-5 px-5 pb-5 text-muted">
+                        a young man who tries to enjoy his life but suddenly realizes that he is living in the real world where happiness is fake. Nah, just kidding, I've actually had a lot of fun in life, now I'm at the stage to fight for life to be even better.
+                    </p>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/image.png" alt="" class="w-50 m-auto d-block bg-secondary rounded-circle">
+                </div>
+            </div>
+
             
             <div class="pt-5" id="education">
-                <h1>Education</h1>    
+                <h1 class="">Education</h1>    
                 <div class="row">
                     <div class="col-lg-6 d-flex border-bottom float-start align-items-start mt-2 p-4 border-end">
                         <img src="img/taman-kanak-kanak.jpeg" alt="" class="img-fluid rounded-circle"
@@ -182,6 +194,9 @@
                         </div>
                     </div>
                 </div>
+
+                
+
                 <div class="row">
                     <div class="col-lg-6 d-flex border-bottom float-start align-items-start p-4 border-end">
                         <img src="img/bruder.jpeg" alt="" class="img-fluid rounded-circle"
@@ -245,7 +260,7 @@
                 </div>
             </div>
 
-            <div class="row my-5" id="skill">
+            <div class="row mt-5" id="skill">
                 <div class="col-lg-12">
                     <div class="">
                         <h1>
@@ -254,7 +269,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row ">
+            <div class="row mt-2">
                 <div class="col-lg-7">
                     <p class="fs-5 text-lg-start text-muted">
                         My journey with web programming started during my vocational high school years. 
@@ -325,7 +340,7 @@
                     
             </div>
 
-            <div class="row ">
+            <div class="row mt-5">
                 <div class="col-lg-4 tes">
                     <div class="col-lg-12 shadow p-3 mb-5 bg-white rounded">
                         <h3 class="text-center border-bottom pb-3">
@@ -395,8 +410,13 @@
                 </div>
             </div>
 
-            <div class="row">
-
+            <div class="row mt-5">
+                <div class="col-lg-7">
+                    <p class="fs-5 text-start text-muted">
+                        My journey with designing, both web and video, started during my vocational high school years. I initially only saw it as a way to complete my assignments, but as I delved deeper into it, I found that I had a natural flair for design. I was fascinated by how a few design elements could completely change the look and feel of a website or video. I started to experiment with various design tools such as Photoshop, Illustrator, and Premiere Pro, and I found that I loved the creative process of bringing my ideas to life. 
+                    </p>
+                </div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-4 tes">
                     <div class="col-lg-12 shadow p-3 mb-5 bg-white rounded">
                         <h3 class="text-center border-bottom pb-3">
@@ -453,11 +473,32 @@
             </div>
 
 
-            <div class="row pt-5" id="project">
-                <div class="col-lg-8">
+            <div class="row mt-5" id="project">
+                <h1>Projects</h1>
+                <div class="col-lg-12 row align-items-center pt-5 mb-5">
+                    <div class="col-lg-5">
+                        <p class=" fs-3 text-uppercase text-justify mx-5 mt-5 p-2 border-bottom border-3 border-dark">
+                            In this section, I want show you what i have done with all sorts of skills I've learned
+                        </p>
+                        <p class="mx-5 p-2 text-muted">
+                            Projects that I shown are several projects or tasks that have been done since Vocational High School. of course these projects could not be completed without the help of my group friends
+                        </p>
+                    </div>
+                    <div class="col-lg-7 d-flex align-items-center">
+                        <div>
+                            <img src="img/mulmed.jpeg" alt="" class="w-75">
+                            <img src="img/tretan.jpeg" alt="" class="w-50 mt-5 float-end me-5">
+                        </div>
+                        <div>
+                            <img src="img/SE.jpeg" alt="" class="w-75">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8 mt-5">
                     <div class="col-lg-12 shadow p-3 mb-5 bg-white rounded">
                         <div class="col-lg-12 row">
-                            <h1>Projects</h1>        
+                                 
                             <div class="col-lg-10 py-3 border-bottom">
                                 <h4>Zinfo (Website to search for events, Software Engineering's Project)</h4>
                                 <small>
@@ -538,37 +579,81 @@
                 </div>
                 
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 mt-5">
                     <div class="col-lg-12 shadow p-3 mb-5 bg-white rounded">
                         <h3>Current Project</h3>
-                        <div class="mt-4">
-                            <h5>Web Programming Project</h5>
-                            <small>Client: <b>Anderies</b>, Topic: -</small><br>
-                            <small>Status: <label class="text-danger">On Process</label></small>
+                        <div class="d-flex mt-4 justify-content-between">
+                            <div class="">
+                                <h5>Web Programming Project</h5>
+                                <small>Client: <b>Anderies</b>, Topic: -</small><br>
+                                <small>Status: <label class="text-danger">On Process</label></small>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4 justify-content-between">
+                            <div class="">
+                                <h5>User Experience Project</h5>
+                                <small>Client: <b>Azani Cempaka Sari</b>, Topic: <b>Smart Home App</b></small><br>
+                                <small>Status: <label class="text-danger">User Story</label></small>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4 justify-content-between">
+                            <div class="">
+                                <h5>Data Mining</h5>
+                                <small>Client: <b>Ivan Halim Parmonangan</b>, Topic: <b>Divorce Dataset</b></small><br>
+                                <small>Status: <label class="text-danger">Collect Dataset</label></small>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4 justify-content-between">
+                            <div class="">
+                                <h5>Research Methodology</h5>
+                                <small>Client: <b>Said Achmad</b>, Topic: <b>Divorce Prediction</b></small><br>
+                                <small>Status: <label class="text-danger">Collect Dataset</label></small>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                  </svg>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container mb-5" id="hobby">
-            <h1>Hobby</h1>
+        <div class="container mb-5 mt-5" id="hobby">
+            <h1>What i like to do?</h1>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="img/volley.jpeg" class="card-img-top" alt="...">
-                                <div class="card-body border">
-                                    <p class="card-text fs-2">Volleyesss</p>
-                                    <p class="fs-5">why?? (FLIP IT)</p>
-                                </div>
+                                <img src="img/haikyuu.jpeg" class="card-img-top" alt="...">
                             </div>
-                            <div class="flip-card-back p-3 fs-5">
-                                <p>
-                                    Because of some Tobe Flyyyy... Haikyuu!!!
-                                </p>
-                                <p>
+                            <div class="flip-card-front text-light bg-dark bg-opacity-50">
+                                <div class="m-auto d-block shifted fs-1">Volleyball</div>
+                            </div>
+                            <div class="flip-card-back p-5 fs-6">
+                                <h2 class="border-bottom border-1 border-dark pb-1">Why I Love Volley?</h2>
+                                <p class="text-start pt-2">
                                     My first time watching haikyuu anime. I feel the power of the anime coursing through my veins. So I decided to go to the complex court and play volleyball with lots of people and I got KOed. Of course I didn't give up and continued to play volleyball until it became my hobby until now.
                                 </p>
                             </div>
@@ -579,12 +664,34 @@
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                                <img src="img/anime.png" class="card-img-top" alt="...">
                             </div>
-                            <div class="flip-card-back">
-                                <h1>John Doe</h1> 
-                                <p>Architect & Engineer</p> 
-                                <p>We love that guy</p>
+                            <div class="flip-card-front text-light bg-dark bg-opacity-50">
+                                <div class="m-auto d-block shifted fs-1">Watching</div>
+                            </div>
+                            <div class="flip-card-back p-5 fs-6">
+                                <h2 class="border-bottom border-1 border-dark pb-1">Why I Love Watching?</h2>
+                                <p class="text-start pt-2">
+                                    Other thing that i love so much to do is <b>Watching</b>. Whatever show, i'd love to watch itu especially <b>Anime</b>. watching movies, anime, youtube, and other things in my opinion is very relaxing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/sleep.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="flip-card-front text-light bg-dark bg-opacity-50">
+                                <div class="m-auto d-block shifted fs-1">Sleep</div>
+                            </div>
+                            <div class="flip-card-back p-5 fs-6">
+                                <h2 class="border-bottom border-1 border-dark pb-1">Why I Love Sleep?</h2>
+                                <p class="text-start pt-2">
+                                    As a Cawu 5's BINUS University Student. I realized that the most important thing as a College Student is <b>Sleep</b>. No matter how hard things get, you can always get to sleep especially when you get so much project waiting to be done.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -599,36 +706,39 @@
                 <div class="row mt-3">
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
-                        Technology
+                            Technology
                         </h6>
                         <p>
-                        <a href="#!" class="text-reset">Laravel</a>
+                            <a class="text-reset text-decoration-none">Laravel</a>
                         </p>
                         <p>
-                        <a href="#!" class="text-reset">Bootstrap</a>
+                            <a class="text-reset text-decoration-none">Bootstrap</a>
                         </p>
                         <p>
-                        <a href="#!" class="text-reset">Jquery</a>
+                            <a class="text-reset text-decoration-none">Jquery</a>
                         </p>
                         <p>
-                        <a href="#!" class="text-reset">Blade</a>
+                            <a class="text-reset text-decoration-none">Blade</a>
                         </p>
                     </div>
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
-                        Section
+                            Section
                         </h6>
                         <p>
-                        <a href="#profile" class="text-reset">Profile</a>
+                            <a href="#profile" class="text-reset">Profile</a>
                         </p>
                         <p>
-                        <a href="#education" class="text-reset">Education</a>
+                            <a href="#education" class="text-reset">Education</a>
                         </p>
                         <p>
-                        <a href="#skill" class="text-reset">Skills</a>
+                            <a href="#skill" class="text-reset">Skills</a>
                         </p>
                         <p>
-                        <a href="#project" class="text-reset">Project</a>
+                            <a href="#project" class="text-reset">Project</a>
+                        </p>
+                        <p>
+                            <a href="#hobby" class="text-reset">Hobby</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -665,9 +775,9 @@
                 </div>
             </div>
         </section>
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        {{-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a> --}}
         </div>
     </footer>
 
