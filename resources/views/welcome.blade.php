@@ -38,8 +38,8 @@
                 <a href="#carousel" class="text-decoration-none text-light">Brychan's Profile</a>
               </h2>
               <div class="collapse navbar-collapse ms-5" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item px-5">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu1">
+                  <li class="nav-item px-5 ">
                     <a class="nav-link text-light" aria-current="page" href="#profile">Profile</a>
                   </li>
                   <li class="nav-item px-5">
@@ -57,7 +57,7 @@
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
         <div id="carousel" class="carousel slide carousel-fade">
             
             <div class="carousel-inner">
@@ -471,8 +471,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="row mt-5" id="project">
                 <h1>Projects</h1>
                 <div class="col-lg-12 row align-items-center pt-5 mb-5">
@@ -495,87 +493,85 @@
                         
                     </div>
                 </div>
+
                 <div class="col-lg-8 mt-5">
-                    <div class="col-lg-12 shadow p-3 mb-5 bg-white rounded">
-                        <div class="col-lg-12 row">
-                                 
-                            <div class="col-lg-10 py-3 border-bottom">
-                                <h4>Zinfo (Website to search for events, Software Engineering's Project)</h4>
-                                <small>
-                                    October 2022 - February 2023
-                                </small>
-                                <div>
-                                    Technology used:
-                                    <small>
-                                        HTML, CSS, Javascript, PHP, MySQL
+                    <section>
+                        <div class="container py-5">
+                          <div class="main-timeline-2">
+                            <div class="timeline-2 left-2">
+                              <div class="card">
+                                <div class="card-body p-4">
+                                    <img src="img/zinfo.png" class="card-img-top w-25 bg-primary"
+                                  alt="Responsive image">
+                                    <h4 class="mt-3">Zinfo (Website to search for events, Software Engineering's Project)</h4>
+                                    <small class="text-muted">
+                                        October 2022 - February 2023
                                     </small>
+                                    <div>
+                                        Technology used:
+                                        <small>
+                                            HTML, CSS, Javascript, PHP, MySQL
+                                        </small>
+                                    </div>
+                                    <div class="">
+                                        <a href="https://github.com/brychan1298/zinfo" class="d-flex align-items-center text-decoration-none">
+                                            https://github.com/brychan1298/zinfo
+                                            <span class="material-symbols-outlined ms-1">
+                                                logout
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="">
-                                    <a href="https://github.com/brychan1298/zinfo" class="d-flex align-items-center text-decoration-none">
-                                        https://github.com/brychan1298/zinfo
-                                        <span class="material-symbols-outlined ms-1">
-                                            logout
-                                        </span>
-                                    </a>
-                                    
-                                </div>
+                              </div>
                             </div>
-                            <div class="col-lg-2 py-3">
-                                <img src="img/zinfo.png" alt="" class=" bg-primary">
-                            </div>
-                        </div>
-                        <div class="col-lg-12 row ">
-                            <div class="col-lg-10 py-3 border-bottom">
-                                <h4>HeroIn (Face Recognition Website for Indonesia's National Heroes, Artificial Inteligence's Project)</h4>
-                                <small>
-                                    June 2022 - October 2022
-                                </small>
-                                <div>
-                                    Technology used:
+                            <div class="timeline-2 right-2">
+                              <div class="card">
+                                <div class="card-body p-4">
+                                    <img src="img/heroin.png" class="card-img-top w-25 bg-primary"
+                                  alt="Responsive image">
+                                    <h4 class="mt-3">HeroIn (Face Recognition Website for Indonesia's National Heroes, Artificial Inteligence's Project)</h4>
                                     <small>
-                                        Python, Flask, OpenCV, HTML, CSS
+                                        June 2022 - October 2022
                                     </small>
+                                    <div>
+                                        Technology used:
+                                        <small>
+                                            Python, Flask, OpenCV, HTML, CSS
+                                        </small>
+                                    </div>
                                 </div>
-                                {{-- <div class="">
-                                    <a href="https://github.com/brychan1298/zinfo" class="d-flex align-items-center text-decoration-none">
-                                        https://github.com/brychan1298/zinfo
-                                        <span class="material-symbols-outlined ms-1">
-                                            logout
-                                        </span>
-                                    </a>
-                                </div> --}}
+                              </div>
                             </div>
-                            <div class="col-lg-2 py-3">
-                                <img src="img/heroin.png" alt="" class=" w-50">
-                            </div>
+                            <div class="timeline-2 left-2">
+                                <div class="card">
+                                  <div class="card-body p-4">
+                                        <img src="img/medics.png" class="card-img-top w-25 bg-primary"
+                                        alt="Responsive image">
+                                        <h4 class="mt-3">Medics (Hospital ERP System, High School's Project)</h4>
+                                        <small>
+                                            January 2020 - June 2021
+                                        </small>
+                                        <div>
+                                            Technology used:
+                                            <small>
+                                                Laravel 7, Bootstrap 4, Jquery, MySQL
+                                            </small>
+                                        </div>
+                                        <div class="">
+                                            <a href="https://github.com/brychan1298/medics" class="d-flex align-items-center text-decoration-none">
+                                                https://github.com/brychan1298/medics
+                                                <span class="material-symbols-outlined ms-1">
+                                                    logout
+                                                </span>
+                                            </a>
+                                            
+                                        </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
                         </div>
-                        <div class="col-lg-12 row">
-                            <div class="col-lg-10 py-3 border-bottom">
-                                <h4>Medics (Hospital ERP System, High School's Project)</h4>
-                                <small>
-                                    January 2020 - June 2021
-                                </small>
-                                <div>
-                                    Technology used:
-                                    <small>
-                                        Laravel 7, Bootstrap 4, Jquery, MySQL
-                                    </small>
-                                </div>
-                                <div class="">
-                                    <a href="https://github.com/brychan1298/medics" class="d-flex align-items-center text-decoration-none">
-                                        https://github.com/brychan1298/medics
-                                        <span class="material-symbols-outlined ms-1">
-                                            logout
-                                        </span>
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-2 py-3">
-                                <img src="img/medics.png" alt="" class="w-75">
-                            </div>
-                        </div>
-                    </div>
+                    </section>
                 </div>
                 
 
