@@ -1,11 +1,15 @@
 # Web Programming Warm Up Exercise
 Name : Brychan Artanto
+
 NIM : 2502041110
+
 Class : PPTI 12
+
 Subject : Web Programming
+
 Lecturer : Anderies, B.Eng., S.Kom., M.Kom.
 
-Bina Nusantara University x PPTI BCA
+**Bina Nusantara University x PPTI BCA**
 
 ## My Profile Exercise
 Hi, my name is Brychan Artanto. I create this profile website to show and describe about myself. on this website, you can see my profile and biodata, so you can see what kind of person i am
