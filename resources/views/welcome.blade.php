@@ -22,16 +22,6 @@
         @vite(['resources/js/app.js'])
     </head>
     <body>
-        {{-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container py-3">
-              <p>
-                <h3>
-                    Brychan Artanto's Profile
-                </h3>
-              </p>
-              </div>
-            </div>
-        </nav> --}}
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark bg-opacity-50">
             <div class="container">
               <h2 class="navbar-brand">
@@ -62,21 +52,21 @@
             
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://source.unsplash.com/1200x400/?web" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1200x400/?web-programming" class="d-block w-100" alt="...">
                 <div class="carousel-caption bg-danger-subtle text-start">
                     <p>Hi, You!</p>
                     <h1>Enjoy my Profile</h1>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://source.unsplash.com/1200x400/?sport" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1200x400/?web-programming" class="d-block w-100" alt="...">
                 {{-- <div class="carousel-caption d-none d-md-block">
                     <h1>Tugas BIO X ML</h1>
                     <p class="fs-3">Mengerjakan project BIO X ML(TBC Prediction) Bersama teman-teman Cawu 4</p>
                 </div> --}}
               </div>
               <div class="carousel-item">
-                <img src="https://source.unsplash.com/100x400/?game" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/100x400/?web" class="d-block w-100" alt="...">
                 {{-- <div class="carousel-caption d-none d-md-block .bg-danger-subtle">
                     <h1>Tugas Pancasila</h1>
                     <p class="fs-3">Mengerjakan project CB:Kewarganegaraan Bersama teman-teman Cawu 4</p>
