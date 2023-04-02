@@ -95,12 +95,12 @@ At this section, you can see my short profile such as Name, Birth of Date, Statu
 At this section, you can see my education history from Kindergaten until University where I studied until now.
 
 - Skills
-![skills](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/skill-1.png)
+	![skills](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/skill-1.png)
 *Skills view from my website*
 Here, you can see what abilities I have acquired during my 9 years of schooling. Here I show you some of the technologies I've used in web programming, software programming, and designing. You can also see my journey and experience from Vocational High School there.
 
 - Projects
-![projects](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/project-1.png)
+	![projects](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/project-1.png)
 *Projects view from my website*
 Here, there is a section where you can see what projects or jobs I have worked on using the skills I got earlier. There is also a timeline that will show the 3 most recent projects that I have worked on. Where there will be a project name, processing time, and a github link where you can see the source code.
 
@@ -108,12 +108,12 @@ Here, there is a section where you can see what projects or jobs I have worked o
 	![projects](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/project-2.png)
 
 - Hobby
-![hobby](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/hobby-1.png)
+	![hobby](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/hobby-1.png)
 *Hobby view from my website*
 At my Hobby view, you can see what kind of things i like to do in my life. There is a card to show what thinks i like to do.
 ![hobby2](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/hobby-2.png)
 	And when you hover it, it will flipped and tell you why i love it.
 
 - Footer
-The last section of profile's website is footer that located at the bottom of the website. Here is brief information about a list of what technologies I use. Then what sections are on my profile website. You can also find my contact and social media account usernames as well as the background of this website in the footer section.
+	The last section of profile's website is footer that located at the bottom of the website. Here is brief information about a list of what technologies I use. Then what sections are on my profile website. You can also find my contact and social media account usernames as well as the background of this website in the footer section.
 ![footer](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/footer.png)
