@@ -15,7 +15,7 @@ Lecturer : Anderies, B.Eng., S.Kom., M.Kom.
 Hi, my name is Brychan Artanto. I create this profile website to show and describe about myself. on this website, you can see my profile and biodata, so you can see what kind of person i am
 
 ## About my website
-At first, this website is a warm-up assignment for Web Programming lessons in Cawu 4 of my lecture. My lecturer asked us to create a website profile using Laravel and a CSS framework. So that this simple web was created, I hope that in the future I can create even better works using Laravel.
+At first, this website is a warm-up assignment for Web Programming lessons in Cawu 5 of my lecture. My lecturer asked us to create a website profile using Laravel and a CSS framework. So that this simple web was created, I hope that in the future I can create even better works using Laravel.
 
 In building this website, the technology that I use is as follows:
  - ***HTML 5*** 
