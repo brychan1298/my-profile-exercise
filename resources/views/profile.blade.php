@@ -1,55 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('master')
+@section('title', 'My Profile')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/profile.css">
-    <script src="js/profile.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <!-- Styles -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    @vite(['resources/js/app.js'])
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark bg-opacity-50">
-        <div class="container">
-            <h2 class="navbar-brand">
-                <a href="#carousel" class="text-decoration-none text-light">Brychan's Profile</a>
-            </h2>
-            <div class="collapse navbar-collapse ms-5" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu1">
-                    <li class="nav-item px-5 ">
-                        <a class="nav-link text-light" aria-current="page" href="#profile">Profile</a>
-                    </li>
-                    <li class="nav-item px-5">
-                        <a class="nav-link text-light" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item px-5">
-                        <a class="nav-link text-light" href="#skill">Skills</a>
-                    </li>
-                    <li class="nav-item px-5">
-                        <a class="nav-link text-light" href="#project">Projects</a>
-                    </li>
-                    <li class="nav-item px-5">
-                        <a class="nav-link text-light" href="#hobby">Hobby</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+@section('description', 'This my profile page')
+@section('keyword', 'Brychan`s Profile')
+@section('content')
     <div id="carousel" class="carousel slide carousel-fade">
-
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="https://source.unsplash.com/1200x400/?web-programming" class="d-block w-100" alt="...">
@@ -61,16 +16,16 @@
             <div class="carousel-item">
                 <img src="https://source.unsplash.com/1200x400/?web-programming" class="d-block w-100" alt="...">
                 {{-- <div class="carousel-caption d-none d-md-block">
-                    <h1>Tugas BIO X ML</h1>
-                    <p class="fs-3">Mengerjakan project BIO X ML(TBC Prediction) Bersama teman-teman Cawu 4</p>
-                </div> --}}
+                <h1>Tugas BIO X ML</h1>
+                <p class="fs-3">Mengerjakan project BIO X ML(TBC Prediction) Bersama teman-teman Cawu 4</p>
+            </div> --}}
             </div>
             <div class="carousel-item">
                 <img src="https://source.unsplash.com/100x400/?web" class="d-block w-100" alt="...">
                 {{-- <div class="carousel-caption d-none d-md-block .bg-danger-subtle">
-                    <h1>Tugas Pancasila</h1>
-                    <p class="fs-3">Mengerjakan project CB:Kewarganegaraan Bersama teman-teman Cawu 4</p>
-                </div> --}}
+                <h1>Tugas Pancasila</h1>
+                <p class="fs-3">Mengerjakan project CB:Kewarganegaraan Bersama teman-teman Cawu 4</p>
+            </div> --}}
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -587,8 +542,8 @@
                             <small>Status: <label class="text-danger">On Process</label></small>
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-award-fill" viewBox="0 0 16 16">
                                 <path
                                     d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
                                 <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
@@ -602,8 +557,8 @@
                             <small>Status: <label class="text-danger">User Story</label></small>
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-award-fill" viewBox="0 0 16 16">
                                 <path
                                     d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
                                 <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
@@ -617,8 +572,8 @@
                             <small>Status: <label class="text-danger">Collect Dataset</label></small>
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-award-fill" viewBox="0 0 16 16">
                                 <path
                                     d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
                                 <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
@@ -632,8 +587,8 @@
                             <small>Status: <label class="text-danger">Collect Dataset</label></small>
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-award-fill" viewBox="0 0 16 16">
                                 <path
                                     d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
                                 <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
@@ -711,100 +666,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start bg-dark text-muted py-3">
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <div class="row mt-3">
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Technology
-                        </h6>
-                        <p>
-                            <a class="text-reset text-decoration-none">Laravel</a>
-                        </p>
-                        <p>
-                            <a class="text-reset text-decoration-none">Bootstrap</a>
-                        </p>
-                        <p>
-                            <a class="text-reset text-decoration-none">Jquery</a>
-                        </p>
-                        <p>
-                            <a class="text-reset text-decoration-none">Blade</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Section
-                        </h6>
-                        <p>
-                            <a href="#profile" class="text-reset">Profile</a>
-                        </p>
-                        <p>
-                            <a href="#education" class="text-reset">Education</a>
-                        </p>
-                        <p>
-                            <a href="#skill" class="text-reset">Skills</a>
-                        </p>
-                        <p>
-                            <a href="#project" class="text-reset">Project</a>
-                        </p>
-                        <p>
-                            <a href="#hobby" class="text-reset">Hobby</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                        <p class="d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-envelope me-2" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                            </svg>brychan58@gmail.com
-                        </p>
-                        <p class="d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-instagram me-2" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                            </svg>brycha.n
-                        </p>
-                        <p class="d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-telephone-fill me-2" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                            </svg>0821-5731-8364
-                        </p>
-                        <p class="d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-facebook me-2" viewBox="0 0 16 16">
-                                <path
-                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                            </svg>Brychan Artanto
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Website's Background
-                        </h6>
-                        <p>
-                            This website is a warm-up assignment for Web Programming lessons in Cawu 4 of my lecture. My
-                            lecturer asked us to create a website profile using Laravel and a CSS framework. So that
-                            this simple web was created, I hope that in the future I can create even better works using
-                            Laravel.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        {{-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a> --}}
-        </div>
-    </footer>
-
     <script>
         $(document).ready(function() {
             $(window).scroll(function() {
@@ -819,6 +680,4 @@
             })
         })
     </script>
-</body>
-
-</html>
+@endsection
