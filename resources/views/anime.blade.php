@@ -10,12 +10,17 @@
             overflow: hidden;
         }
 
+        .anime-title{
+            height: 7vh;
+        }
+
         .card-tier-god {
             position: absolute;
+            border: 3px solid white;
+            color: white;
             top: 4%;
             right: 4%;
-            background-color: #ED2939;
-            opacity: 0.8;
+            background-color: #ff0015;
             padding: 4px 17px;
             border-radius: 10px;
             font-weight: bold;
@@ -25,10 +30,11 @@
 
         .card-tier-good {
             position: absolute;
+            border: 3px solid white;
+            color: white;
             top: 4%;
             right: 4%;
-            background-color: gold;
-            opacity: 0.8;
+            background-color: #d3d61d;
             padding: 4px 17px;
             border-radius: 10px;
             font-weight: bold;
@@ -37,10 +43,11 @@
 
         .card-tier-meh {
             position: absolute;
+            border: 3px solid white;
+            color: white;
             top: 4%;
             right: 4%;
-            background-color: #C0C0C0;
-            opacity: 0.8;
+            background-color: #a6a6a6;
             padding: 4px 17px;
             border-radius: 10px;
             font-weight: bold;
@@ -75,14 +82,14 @@
             :
         <ul>
             <li>
-                <label class="text-danger fs-4">GOD Tier : </label> It means I rate the anime very, very well.
+                <label class="fs-4" style="color:#ff0015">GOD Tier : </label> It means I rate the anime very, very well.
             </li>
             <li>
-                <label class="text-warning fs-4">GOOD Tier : </label> It means the anime is kinda good based on my personal
+                <label class="fs-4" style="color:#d3d61d">GOOD Tier : </label> It means the anime is kinda good based on my personal
                 opinion.
             </li>
             <li>
-                <label class="text-secondary fs-4">MEH Tier : </label> It means i could sleep while watching this anime ^-^.
+                <label class="fs-4" style="color:#a6a6a6">MEH Tier : </label> It means i could sleep while watching this anime ^-^.
             </li>
         </ul>
         </p>
@@ -100,25 +107,25 @@
                             <img src="{{$anime['Image']}}" class="rounded card-image"
                                 style="width:600px;height:200px;">
                             @if ($anime['Tier'] == '1')
-                                <div class="card-tier-god text-black">
+                                <div class="card-tier-god">
                                     GOD Tier
                                 </div>
                             @elseif($anime['Tier'] == '2')
-                                <div class="card-tier-good text-black">
+                                <div class="card-tier-good">
                                     GOOD Tier
                                 </div>
                             @else
-                                <div class="card-tier-meh text-black">
+                                <div class="card-tier-meh">
                                     MEH Tier
                                 </div>
                             @endif
                             <div class="p-3">
-                                <h4>{{ $anime['AnimeName'] }}</h4>
-                                <p class="text-secondary">
+                                <h4 class="anime-title">{{ $anime['AnimeName'] }}</h4>
+                                <p class="text-secondary h-5">
                                     Genre : {{ $anime['Genre'] }}
                                 </p>
                             </div>
-                            <div class="p-3 d-flex justify-content-between">
+                            <div class="px-3 d-flex justify-content-between">
                                 <div>
                                     Year : {{ $anime['Year'] }}
                                 </div>

@@ -24,16 +24,16 @@
                         Section
                     </h6>
                     <p>
-                        <a href="#profile" class="text-reset">Profile</a>
+                        <a href="/#profile" class="text-reset">Profile</a>
                     </p>
                     <p>
-                        <a href="#education" class="text-reset">Education</a>
+                        <a href="/#education" class="text-reset">Education</a>
                     </p>
                     <p>
-                        <a href="#skill" class="text-reset">Skills</a>
+                        <a href="/#skill" class="text-reset">Skills</a>
                     </p>
                     <p>
-                        <a href="#project" class="text-reset">Project</a>
+                        <a href="/#project" class="text-reset">Project</a>
                     </p>
                     <p>
                         <a href="#hobby" class="text-reset">Hobby</a>

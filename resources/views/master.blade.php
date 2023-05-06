@@ -5,8 +5,8 @@
     <meta name="viewport" content="@yield('description')">
     <meta http-equiv="X-UA-Compatible" content="@yield('keywords')">
     <title>@yield('title')</title>
-    <link rel="stylesheet" href="css/profile.css">
-    <script src="js/profile.js"></script>
+    <link rel="stylesheet" href="/css/profile.css">
+    <script src="/js/profile.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
