@@ -248,6 +248,6 @@ When you select one of the anime titles, you will be redirected to a page that s
 ![Detail Anime Tier](https://github.com/brychan1298/my-profile-exercise/blob/master/public/readmeIMG/DetailAnimeTierPage.png)
 
 # DEMO OF THE APPLICATION
-![GIF](https://github.com/brychan1298/my-profile-exercise/blob/master/public/documentation/BestGifSize.gif)
+![GIF](https://github.com/brychan1298/my-profile-exercise/blob/master/public/documentation/Documentation.gif)
 
 ## Thank you for your attention
